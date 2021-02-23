@@ -12,6 +12,9 @@ const CardWrapper = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 const GameWrapper = styled.div`
   display: flex;

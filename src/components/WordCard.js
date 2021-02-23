@@ -17,6 +17,9 @@ const Card = styled.button`
     background-color: #ccc;
     transform: translateY(-5px) translateX(5px);
   }
+  @media only screen and (max-width: 768px) {
+    width: 50%;
+  }
 `;
 
 class WordCard extends Component {

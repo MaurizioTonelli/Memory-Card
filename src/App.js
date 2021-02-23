@@ -21,16 +21,23 @@ const Nav = styled(animated.nav)`
   justify-content: center;
   align-items: center;
   border-radius: 0px 0px 40px 40px;
+  text-align: center;
 `;
 const Title = styled.h1`
   font-family: "DotGothic16", sans-serif;
-  font-size: 4em;
+  font-size: 4rem;
   color: #444;
+  @media only screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
 `;
 const Credit = styled.h3`
   font-family: "DotGothic16", sans-serif;
-  font-size: 2em;
+  font-size: 2rem;
   color: #999;
+  @media only screen and (max-width: 768px) {
+    font-size: 1.4rem;
+  }
 `;
 
 function App() {
