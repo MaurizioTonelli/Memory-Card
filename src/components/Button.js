@@ -13,6 +13,9 @@ const SButton = styled.button`
     background-color: #ccc;
     cursor: pointer;
   }
+  @media only screen and (max-width: 768px) {
+    width: 80%;
+  }
 `;
 
 const Button = (props) => {
